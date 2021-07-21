@@ -1,0 +1,125 @@
+body {
+ background-color: #D3E2F1;
+ font-size: 12pt;
+ font-family: Arial, Times New Roman;
+ color: #000000;
+}
+a, a:visited, a:link {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  text-decoration: none;
+  color: #0000AA;
+}
+h2 {
+ font-family: Gabriola, Arial, Times New Roman;
+ color: #330000;
+ margin-left: 2em;
+ font-weight: bold;
+ font-size: 24pt;
+}
+h3 {
+ font-family: Gabriola, Arial, Times New Roman;
+ color: #003300;
+ margin-left: 2em;
+ font-weight: bold;
+ font-size: 24pt;
+}
+
+noscript {
+ color: #770000;
+ font-size: 12pt;
+}
+table.tableEingabe {
+ background-color: #BBCCDD;
+ border-collapse: collapse;
+ width: 100%;
+	
+}
+table.tableEingabe tr, td, th {
+  height: 4ex;
+}
+table.tableErgebnis {
+ background-color: #BBCCDD;
+ border-collapse: collapse;
+ width: 100%;
+ text-align: right;
+}
+table.tableErgebnis td, th {
+ padding-left: 0.5em;
+ padding-right: 0.5em;
+}
+.InputE {
+  background-color: rgba(187, 229, 255, 0.5);
+}
+.InputI {
+  background-color: rgba(250, 250, 255, 0.5);
+}
+.InputK {
+  background-color: rgba(255, 187, 191, 0.5);
+}
+.InputZ {
+  background-color: rgba(187, 255, 191, 0.5);
+}
+
+tr.ResultE {
+  background-color: rgba(153, 204, 255, 1.0);
+}
+tr.ResultI {
+  background-color: rgba(250, 250, 250, 1.0);
+}
+tr.ResultK {
+  background-color: rgba(255, 153, 153, 1.0);
+}
+tr.ResultZ {
+  background-color: rgba(153, 255, 153, 1.0);
+}
+tr.ResultP {
+  background-color: rgba(255, 153, 255, 1.0);
+}
+tr.ResultS {
+  background-color: rgba(255, 255, 153, 1.0);
+}
+tr.ResultE:hover {
+  background-color: rgba(180, 215, 255, 1.0);
+}
+tr.ResultI:hover {
+  background-color: rgba(235, 235, 235, 1.0);
+}
+tr.ResultK:hover {
+  background-color: rgba(255, 180, 180, 1.0);
+}
+tr.ResultZ:hover {
+  background-color: rgba(180, 255, 180, 1.0);
+}
+
+tr.InputLine:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.Input0 {
+  color: rgba(0, 0, 0, 0.4);
+}
+zahl-null {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+input[type=number] {
+ font-weight: bold;
+ font-size: 18pt;
+ text-align: right;
+ width: 95%;
+ height: 100%;
+ background-color: rgba(255,255,255,0.14);
+ border: none;
+ text-indent: 1ex;
+}
+input.button {
+ font-weight: bold;
+ font-size: 24pt;
+ text-align: center;
+ width: 90%;
+ margin-left: 5%;
+ height: 4ex; 
+}
